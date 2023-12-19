@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+    <header>To-Do List App</header>
+    </div>
+    <div class="taskbox">
+        <input type="text" id="inputItem" placeholder="Write your task here...">    
+    </div>
+    <div class="taskAction">
+        
+    <div class="buttons">
+        <button onclick="addToList()">Add new tasks</button>
+        <button onclick="clearList()">clear completed tasks</button>
+        <ul id="listItems">
+        </ul>
+    </div>
+    </div>
+    <div class="completed">
+        <li>
+        <img src="inboxicon.png" alt="">
+    </li>
+        <li>
+            <h1>You have nothing task today!<span><br>Enter your tasks today above.</span></h1>
+        </li>
+    </div>
+</body>
+</html>
